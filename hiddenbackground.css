@@ -1,0 +1,36 @@
+ body {
+  margin: 0;
+}
+
+header {
+  background-color: #CCC;
+  border-bottom: 1px solid #777;
+  -webkit-box-align: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-pack: left;
+  display:-webkit-box;
+  height: 48px;
+  padding: 0px 12px 0px 12px;
+}
+
+button {
+  margin: 8px;
+}
+
+textarea {
+  background-color: lightblue;
+  border: ridge;
+  -webkit-box-sizing: border-box;
+  font-family: monospace;
+  padding: 4px;
+  position: absolute;
+  top: 48px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  width: 80%;
+}
+
+textarea:focus {
+  outline: none! important;
+}

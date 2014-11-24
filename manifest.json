@@ -1,0 +1,12 @@
+{  "name"             : "retrieve info from optionPage and insert into a webpage",
+   "version"          : "1.0",
+   "description"      : "Step 2: copy text from option page to google Drawings",
+   "manifest_version" : 2,
+   "icons"            : { "64"  : "pp64.png"}, 
+   "background"       : { "page"     :  "hiddenbackground.html"},    
+   "browser_action"   : { "default_title" : "option page to google Drawings",
+                          "default_icon"  : "pp64.png"}, 
+// "options_page"     : "option.html",
+   "permissions"      : ["background", "tabs", "http://*/*", "file://*/*", "https://*/*"]
+}
+
